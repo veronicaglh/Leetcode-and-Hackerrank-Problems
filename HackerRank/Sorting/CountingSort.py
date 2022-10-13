@@ -27,13 +27,10 @@ import sys
 
 
 def countingSort(arr):
-    result_list= []
-    for i in range(len(arr)): 
-        result_list.append(0)
-    for i in arr:
-        result_list[i] += 1
-    for i in range(len(result_list)):
-        print(result_list[i], end=' ')
+    result_list= [0]*100
+    for i in range(len(arr)):
+        result_list[arr[i]] += 1
+    print(' '.join(str(j) for j in result_list))
     
           
 if __name__ == '__main__':

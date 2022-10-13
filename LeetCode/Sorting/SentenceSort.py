@@ -17,7 +17,8 @@ class Solution:
         :type s: str
         :rtype: str
         """
-        
+        # The split method splits a string into seperate words 
+        # Those words would then be appended to a list named words
         words = s.split()
         result = []
         sorted_sentence = []
@@ -29,13 +30,13 @@ class Solution:
                     
                     
         for i in range(len(result)): 
-            result_correct = result[i].translate({ ord(c): None for c in "123456789" })
+            result_correct = result[i].translate({ord(c): None for c in "123456789" })
             if i == 0: 
                 sorted_sentence.append(f'{result_correct}')
             elif i == len(result) - 1: 
                 sorted_sentence.append(f'{result_correct}')
             else: 
                 sorted_sentence.append(result_correct)
-       
+                
         answer = f"{sorted_sentence[0]} {sorted_sentence[1]} {sorted_sentence[2]} {sorted_sentence[3]}"
         return answer
