@@ -28,26 +28,20 @@ import sys
 
 def insertionSort1(n, arr):
     # The variable right_most_cell will hold the value of the last cell of list arr
-    # array_one is the list that will hold the final result 
-    right_most_cell = arr[n - 1]
-    array_one = []
-    
-    for i in reversed(range(n)): 
+    right_most_cell = arr[n -1]
+    for i in range(len(arr)-2, -1, -1): 
         if arr[i] > right_most_cell:
             arr[i+1] = arr[i] 
+            print(' '.join(str(e) for e in arr))
 
-        if arr[i] < right_most_cell:
+        else:
             arr[i+1] = right_most_cell
+            print(' '.join(str(e) for e in arr))
+            break 
             
-        for j in range(len(arr)):
-            if j <= 4: 
-                array_one.append(arr[j])
-                
-    for i in range(len(array_one)):
-        if i != 0 and i != 1 and i != 2 and i != 3 and i != 4:
-            print(array_one[i], end=" ")
-            if i == 9 or i == 14 or i == 19 or i == 24:
-                print("")
+    if arr[0] > right_most_cell:
+        arr[0] = right_most_cell
+        print(" ".join(map(str, arr)))
     
 
 if __name__ == '__main__':
@@ -56,6 +50,6 @@ if __name__ == '__main__':
     arr = list(map(int, input().rstrip().split()))
     # n refers to the length of the list arr 
     # arr refers to the list of the numbers 
-
+    
     insertionSort1(n, arr)
 
