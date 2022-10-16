@@ -9,9 +9,9 @@
 # 3. Every close bracket has a corresponding open bracket of the same type.
 # For example lets say the name of the variable that stores the string is s. 
 # If s =  "()"
-# Then program returns true 
-# If s s = "(]"
-# Then program returns false 
+# Then the program returns true. 
+# If s = "(]"
+# Then the program returns false. 
 
 
 class Solution:
