@@ -1,7 +1,7 @@
 # This problem is called Insertion Sort - Part 1
 # You can access it here: https://www.hackerrank.com/challenges/insertionsort1/problem
 
-# The Insertuon Sort program will accept a list of intergers. The name of this list is arr 
+# The Insertion Sort program will accept a list of intergers. The name of this list is arr 
 # The values in arr have all been sorted(in ascending order) expect for the very last cell
 # The insertion sort algorithm will then attempt to place the value of the last cell in its correct place
 # For example if list arr = [1, 2, 4, 5, 3]
