@@ -2,7 +2,7 @@
 # You can access it here: https://leetcode.com/problems/find-pivot-index/
 
 
-# The sorting the sentence program recieves an array of numbers called nums
+# The program recieves an array of numbers called nums
 # and will return the pivot index. 
 # The pivot index is the index where the sum of all the numbers strictly to the left 
 # of the index is equal to the sum of all the numbers strictly to the index's right.
