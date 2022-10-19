@@ -2,7 +2,7 @@
 # You can access it here: https://leetcode.com/problems/max-consecutive-ones-iii/
 
 # This program will recieve a binary array nums and an integer k
-# The purogram will then return the maximum number if consecutive 1's i the array 
+# The program will then return the maximum number if consecutive 1's i the array 
 # If the array can be flipped at most k 0's.
 # For example if nums = [1,1,1,0,0,0,1,1,1,1,0] and k = 2
 # Then the output will be: 6
