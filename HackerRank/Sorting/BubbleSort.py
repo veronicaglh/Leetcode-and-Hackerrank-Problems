@@ -1,11 +1,5 @@
-# HackerRank is a place where programmers from all over the world come together to solve different programming problems.
-# All of the questions done in this folder are from the HackerRank website. 
-# In order to access and solve the problems you will need to sign up for an account on their website. 
-# I have also attached a link to each problem solved so you can can access the problem and attempt to solve it.
-# Please run the code on HackerRanks own code editor. If you try to run it on your own IDE the code will not work.
-# Here is HackerRanks website: https://www.hackerrank.com/
-# Here is where you can create an account: https://www.hackerrank.com/create-account/
-# The first problem is called Bubble Sort. You can access it here: https://www.hackerrank.com/challenges/ctci-bubble-sort/problem
+# The first problem is called Bubble Sort. 
+# You can access it here: https://www.hackerrank.com/challenges/ctci-bubble-sort/problem
 
 # The Bubble Sort program will attempt to sort a list of integers in increasing order. 
 # The name of the list containing the integers is a
