@@ -2,7 +2,7 @@
 # You can access it here: https://leetcode.com/problems/merge-intervals/
 
 # This program will recieve a list of integers intervals where intervals[i] = [starti, endi]
-# The program will erge all overlapping intervals, and return an array of the non-overlapping 
+# The program will merge all overlapping intervals, and return an array of the non-overlapping 
 # intervals that cover all the intervals in the input.
 # For example if intervals = [[1,3],[2,6],[8,10],[15,18]]
 # Then output =  [[1,6],[8,10],[15,18]]
