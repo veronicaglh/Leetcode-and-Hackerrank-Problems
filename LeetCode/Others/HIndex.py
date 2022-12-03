@@ -8,6 +8,7 @@
 # A scientist has an index h if h of their n papers have at 
 # least h citations each, and the other n − h papers have no 
 # more than h citations each.
+# The program will return the h-index
 # For example: 
 # If citations = [3,0,6,1,5]
 # The output is 3 
